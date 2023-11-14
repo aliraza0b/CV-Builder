@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    background-image: url(../Pics/header-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vmax;
+}
+.bg-img{
+    background-image: url(../Pics/Rectangle\ 3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.line{
+    border-top: 1px solid #2899FF;
+    background:#041833;
+}
+.pro{
+    padding-top: 3rem;
+}
+.set{
+    width: 82%;
+    margin-top: 25px;
+}
+.setting{
+    margin-right: 100px;
+}
+.check{
+    margin-left: 1rem;
+}
+.lef{
+    margin-right: 1.5rem!important;
+    margin-left: 1.5rem!important;
+}
+.pic {
+    max-width: 99.49999%;
+    height: auto;
+}
+@media only screen and (min-width: 1024px) {
+    .pic{
+        max-width: 94.49999%;
+        height: auto;
+    }
+}
+@media only screen and (min-width: 768px) and  (max-width: 1023px){
+    .pic {
+        max-width: 84%;
+        height: auto;
+        margin-top: -26px;
+    }
+    .pro{
+        padding: 0px;
+    }
+    .ftset{
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width: 320px) and  (max-width: 767px) {
+    .pro{
+        padding: 0px;
+    }
+    .ftset{
+        flex-direction: column;
+    }
+    .sv{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .lef{
+        margin-left: 10px;
+    }
+    .mood{
+        flex-direction: column;
+        gap: 33PX;
+        margin-left: 5px;
+    }
+    .check{
+        margin-left: 0px;
+    }
+    .pic{
+        display: none;
+    }
+    .pad{
+        margin-top: 140px;
+    }
+}   
